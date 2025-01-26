@@ -202,7 +202,7 @@ W=W_{hh} & \in \mathbb{R}^{H \times H}
 \\
 U=W_{xh} & \in \mathbb{R}^{X\times H}
 \\
-O= W_{hy} & \in \mathbb{R}^{H \times Y}
+O= W_{hy} & \in \mathbb{R}^{H \times |V|}
 \end{cases}
 $$
 
