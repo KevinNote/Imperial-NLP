@@ -300,7 +300,7 @@ $$
 
 ## GRU
 
-<img src="./img/Lec3.2/1*yBXV9o5q7L_CvY7quJt3WQ.png" style="width:80%;" />
+<img src="./img/Lec3.2/1_yBXV9o5q7L_CvY7quJt3WQ.png" style="width:80%;" />
 
 <img src="./img/Lec3.2/gru-1.svg" style="width:67%;" />
 
