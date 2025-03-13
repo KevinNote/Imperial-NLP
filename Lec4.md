@@ -170,7 +170,7 @@ $$
 > | Count Ref 1         |   2   |   1   |   1   |   1   |
 > | Count Ref 2         |   1   |   5   |   1   |   1   |
 > | Max (Token) $t$     | **2** |   5   | **1** | **1** |
-> | Count(Src) $s$      |   3   | **2** | **1** | **1** |
+> | Count(MT) $s$       |   3   | **2** | **1** | **1** |
 > | Clip ($\min(t, s)$) |   2   |   2   |   1   |   1   |
 >
 > total_ngram= 7
@@ -180,12 +180,7 @@ $$
 
 ### Chr-F & TER
 
-#### Chr-F: Character n-gram $F_\beta$ score
-
-这是一个平衡了两个指标的评分方式：
-
-- Character Precision：衡量翻译结果（hypothesis）中的n-gram（连续字符序列）有多少能在参考译文中找到对应
-- Character Recall：衡量参考译文中的n-gram有多少出现在翻译结果中
+- 
 
 简单来说，它通过比较翻译结果和参考译文在字符级别的相似度来评估翻译质量
 
@@ -198,7 +193,7 @@ $$
 > Count = Min({MT Token in Ref}, {Overlap Token in MT}) ; Count = |MT| = 12
 > Precision = 6/12 = .5 (北京、京是、是中、国的、的首、首都)
 >
-> Count = Min({Ref Token in MT}, {Overlap Token in Ref}) ; Count = |MT| = 12
+> Count = Min({Ref Token in MT}, {Overlap Token in Ref}) ; Count = |Ref| = 7
 > Recall = 6/7
 >
 > F_beta
