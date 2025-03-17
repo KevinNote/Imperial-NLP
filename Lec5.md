@@ -217,7 +217,7 @@ $\gamma, \beta$ 参数的作用是让 NN 学习 Normalised 后每个特征的最
 
 ### Residual Connections
 
-<img src="./img/Lec5/1*RTYKpn1Vqr-8zT5fqa8-jA.png" alt="img" style="width:67%;" />
+<img src="./img/Lec5/1_RTYKpn1Vqr-8zT5fqa8-jA.png" alt="img" style="width:67%;" />
 
 <img src="./img/Lec5/image-20250211052214717.png" alt="image-20250211052214717" style="width:40%;" />
 
